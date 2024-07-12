@@ -1,0 +1,22 @@
+.text{
+    background: rgba(199, 55, 55, 0.441) ;
+    margin: 2px;
+  
+   
+    font-size: 20px;
+   background-color: rgb(119, 119, 79);
+   color: purple;
+}
+ .flex-container{
+    display: flex;
+    justify-content: left;
+} 
+.flex-container1{
+    display: flex;
+    justify-content: right; 
+    margin: 0px;
+} 
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
