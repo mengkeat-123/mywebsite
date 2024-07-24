@@ -1,6 +1,9 @@
+body{
+ background-color: orange;
+}
 .text{
     margin: 2px;
-    font-size: 20px;
+    font-size: 10px;
    color: purple;
 }
  .flex-container{
@@ -16,4 +19,22 @@
     display: flex;
     justify-content: space-between;
     background-color: gray;
+}
+.h1{
+    color: white ;
+    font-size: 15px;
+
+}
+.h2{
+    color: white;
+    font-size: 25px;
+}
+.services{
+ display: flex;
+}
+.Portfolio{
+    display: flex;
+   }
+.newport{
+    display: flex;
 }
