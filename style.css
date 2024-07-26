@@ -1,12 +1,45 @@
 body{
- background-color: orange;
+    margin: 0;
 }
+
+.app-name {
+    color: yellow;
+    font-size: 24px;
+}
+
 .text{
-    margin: 2px;
-    font-size: 10px;
-   color: purple;
+    margin-left: 16px;
+    font-size: 16px;
+    color: white;
 }
- .flex-container{
+
+.welcome {
+    height: 400px;
+    background-color: aqua;
+    background-image: url("pexels-chinar-minar-1265133847-25776387.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.welcome-title {
+    font-size: 24px;
+}
+
+.welcome-title-large {
+    font-size: 40px;
+}
+
+.welcome-button {
+    background-color: #f7d00f;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+}
+
+.flex-container{
     display: flex;
     justify-content: left;
 } 
@@ -18,23 +51,69 @@ body{
 .flex {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: gray;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .h1{
+    margin-top: 0px;
     color: white ;
     font-size: 15px;
-
 }
+
 .h2{
+    margin-top: 0px;
     color: white;
     font-size: 25px;
 }
+
 .services{
  display: flex;
 }
-.Portfolio{
+
+
+
+.services-title {
+    text-align: center;
+}
+
+.service {
+    width: 33.3333%;
+}
+
+.services-item-title {
+    text-align: center;
+}
+
+.services-item-description {
+    text-align: center;
+}
+
+.portfolio-header {
+    text-align: center;
+}
+
+.portfolio-header-title {
+    font-size: 40px;
+}
+
+.portfolio {
     display: flex;
-   }
-.newport{
-    display: flex;
+}
+
+.portfolio-item {
+    width: 33.3333%;
+    text-align: center;
+}
+
+.portfolio-item-image {
+    width: 200px;
+    height: 150px;
+}
+
+.portfolio-item-title {
+    text-transform: uppercase;
+}
+.portfolio-item-description {
 }
